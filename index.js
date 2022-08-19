@@ -3,7 +3,7 @@ const express = require("express")//se importa libreria para usarla
 const cors = require("cors")//desabilite posibles errores relacionados con cors
 
 const app = express()//creamos una aplicacion con express.js
-
+//añadiendo comentario
 app.use(cors())
 app.use(express.json())//habilite la capacidad de recibir contenido post
 
